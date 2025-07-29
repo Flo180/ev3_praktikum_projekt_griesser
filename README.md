@@ -4,7 +4,7 @@
 
 Im Ramen meines Praktikums am Lehrstuhl für Cyber-Physical-Systems habe ich eine auf LEGO EV3 basierende automatisierte Produktionsstätte mit Sortiersystem gebaut.
 
-## Umsetzung
+### Umsetzung
 
 - Bau einer Sortiermaschiene, die grüne Teile aussortiert und Programmierung dieser
 - Erweiterung des Förderbands mit einer Maschiene die die blauen Teile aussortiert
