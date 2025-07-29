@@ -83,7 +83,7 @@ Es wurden 2 Motoren verwendet um die Leistung zu erhöhen.
 [Code zur Kombinierung dieser Komponenten](Bricks/Lift_Sorter_Laufband/main.py)
 
 ##### Funktionsweise des Codes
-Sorter: Sortiert nur die blauen in die daneben liegende Box (4x Blöcke Limit) aus.
+[Sorter: ](Bricks/Gifs_demo/sorter_blau.gif)Sortiert nur die blauen in die daneben liegende Box (4x Blöcke Limit) aus.
 
 Lift: Fängt einen Block auf und transportiert ihn rauf und rüber zur Rutsche
 
