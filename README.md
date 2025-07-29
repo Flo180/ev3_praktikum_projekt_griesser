@@ -83,11 +83,11 @@ Es wurden 2 Motoren verwendet um die Leistung zu erhöhen.
 [Code zur Kombinierung dieser Komponenten](Bricks/Lift_Sorter_Laufband/main.py)
 
 ##### Funktionsweise des Codes
-[Sorter: ](Bricks/Gifs_demo/sorter_blau.gif)Sortiert nur die blauen in die daneben liegende Box (4x Blöcke Limit) aus.
+[Sorter:](/Gifs_demo/sorter_blau.gif) Sortiert nur die blauen in die daneben liegende Box (4x Blöcke Limit) aus.
 
-Lift: Fängt einen Block auf und transportiert ihn rauf und rüber zur Rutsche
+[Lift:](/Gifs_demo/lift.gif) Fängt einen Block auf und transportiert ihn rauf und rüber zur Rutsche
 
-Sensor / Rutsche: Erkennt Block und fangt ihn ab bevor er zum Greifarm vorgelassen wird.
+[Sensor / Rutsche:](/Gifs_demo/foerderband_sensor.gif) Erkennt Block und fangt ihn ab bevor er zum Greifarm vorgelassen wird.
  
 ##### Limitationen / Komplikationen
 1) Falls der Lift noch aktiv läuft, kann der Sensor am Laufband vorne nichts erkennen oder reagieren
