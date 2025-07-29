@@ -6,10 +6,10 @@ Im Ramen meines Praktikums am Lehrstuhl für Cyber-Physical-Systems habe ich ein
 
 ##Umsetzung
 
-Bau einer Sortiermaschiene die grüe Teile aussortiert und Programierung dieser
-Erweiterung des Förderbands mit einer Maschiene die die blauen Teile aussortiert
-Programierung von Lift,Sortiermaschiene, Griefarm und Laufbändern
-Recherche zum gleichzeitigem ansteuern aller EV3 Bricks 
+- Bau einer Sortiermaschiene die grüe Teile aussortiert und Programierung dieser
+- Erweiterung des Förderbands mit einer Maschiene die die blauen Teile aussortiert
+- Programierung von Lift,Sortiermaschiene, Griefarm und Laufbändern
+- Recherche zum gleichzeitigem ansteuern aller EV3 Bricks 
 
 ##Herausforderung 
 
