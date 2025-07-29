@@ -94,3 +94,30 @@ Es wurden 2 Motoren verwendet um die Leistung zu erhöhen.
 2) Der Sensor erkennt die Farbe Gelb sehr schwer
 3) Platzierung des Blockes ist für den Greifarm wichtig bzw. kann nicht gedreht werden
 4) In den Lift passt nur ein Block und das Laufband stoppt nicht während der Lift aktiv ist
+
+#### 4) Greifarm
+[Code des Greifarms](Bricks/Griparm/main.py)
+##### Funktionsweise des Codes
+Um den Greifarm zu aktivieren muss ein blauer Block manuell vor den Sensor halten.
+Greift den Block auf und transportiert ihm vom kleinen Laufband auf das große.  
+
+##### Limitationen / Komplikationen
+1) Man muss es manuell starten und braucht einen blauen Block dafür (Kabel sind eventuell zu kurz)
+
+### Gescheiterte Versuch
+Idee: Einmaliges ansteuern aller EV3s mit Endgerät um den Start / Stop der Programme zu aktivieren.
+
+Probleme beim Umsetzen:
+1) WiFi Chips sind nicht integriert in den EV3s
+2) IPv4 Verteilung an die Geräte zur Kommunikation invalide -> Kein Ping möglich
+3) Instabile USB eth Verbindung -> Nur manuell wieder herstellbar wenn abgebrochen
+Im Endeffekt zu wenig Zeit um das Problem zu lösen
+
+.sh Datei zur Ansteuerung der Bricks:
+[Bash File](Bricks/starte_bricks.sh)
+
+## Author / Praktikant
+Name: Florian Griesser
+HTL Schüler im 1. Jahr, Schwerpunkt auf IT
+Praktikum an CPS absolviert: 07.07 - 31.07.2025, 4 Wochen
+Email: flo809744@gmail.com
