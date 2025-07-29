@@ -52,3 +52,45 @@ Download von Extensions:
 ### Erstellen des Codes
 #### 1) Sortiermaschine
 [Code zur Sortiermaschine](Bricks/Sorter/main.py)
+
+##### Funktionsweise des Codes
+Sortiert grüne von restlichen Farben in eine Box aus, die nicht betroffenen Farben werden weiterbefördert.
+
+"motor1 = Motor(Port.A)" -> Reserviert für Grüne um den Apparat zur Seite zu drehen
+"motor = Motor(Port.B)" -> Für alle Farben zum Auswerfen der Blöcke auf das Förderband
+
+"if color1 == Color.GREEN:" ist die erste Condition in der While(1) Schleife die den Motor1 betätigt (GREEN stammt aus der Colour Library)
+
+##### Limitationen / Komplikationen
+1) Befüllen muss manuell ablaufen
+2) Sortiert im momentanen Zustand nur eine Farbe aus (bei Abänderung etwas anderes als Grün)
+3) Blöcke könnten vom Förderband bei Ablage rutschen
+4) Bei Verlagerung der Box zum Aussortieren landet der Block im Nichts
+5) Bei Veränderung der Startpositionen der Motoren könnten Probleme auftreten
+
+#### 2) Laufband (Groß)
+[Code zum großen Laufband](/Bricks/Laufband/main.py)
+
+##### Funktionsweise des Codes
+Aktiviert das Laufband auf eine fixe Geschwindigkeit.
+Es wurden 2 Motoren verwendet um die Leistung zu erhöhen.
+
+##### Limitationen / Komplikationen
+1) Startet, aber stoppt das Laufband nicht mehr
+2) Muss mit Befehl von einem Endgerät angesteuert werden zum Start, nicht über gespeichertem Programm auf dem Brick alleine möglich.
+
+#### 3) Lift / Sorter / Laufband (Klein)
+[Code zur Kombinierung dieser Komponenten](Bricks/Lift_Sorter_Laufband/main.py)
+
+##### Funktionsweise des Codes
+Sorter: Sortiert nur die blauen in die daneben liegende Box (4x Blöcke Limit) aus.
+
+Lift: Fängt einen Block auf und transportiert ihn rauf und rüber zur Rutsche
+
+Sensor / Rutsche: Erkennt Block und fangt ihn ab bevor er zum Greifarm vorgelassen wird.
+ 
+##### Limitationen / Komplikationen
+1) Falls der Lift noch aktiv läuft, kann der Sensor am Laufband vorne nichts erkennen oder reagieren
+2) Der Sensor erkennt die Farbe Gelb sehr schwer
+3) Platzierung des Blockes ist für den Greifarm wichtig bzw. kann nicht gedreht werden
+4) In den Lift passt nur ein Block und das Laufband stoppt nicht während der Lift aktiv ist
