@@ -3,6 +3,7 @@
 ## Projektbeschreibung
 
 Im Ramen meines Praktikums am Lehrstuhl für Cyber-Physical-Systems habe ich eine auf LEGO EV3 basierende automatisierte Produktionsstätte mit Sortiersystem gebaut.
+Der Code ist unter dem Ordner "Bricks" (Projektname) aufzufinden.
 
 ### Umsetzung
 
