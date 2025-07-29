@@ -54,7 +54,7 @@ Download von Extensions:
 [Code zur Sortiermaschine](Bricks/Sorter/main.py)
 
 ##### Funktionsweise des Codes
-Sortiert grüne von restlichen Farben in eine Box aus, die nicht betroffenen Farben werden weiterbefördert.
+Sortiert Grün von restlichen Farben in eine Box aus, die nicht betroffenen Farben werden weiterbefördert.
 
 - "motor1 = Motor(Port.A)" -> Reserviert für Grüne um den Apparat zur Seite zu drehen
 - "motor = Motor(Port.B)" -> Für alle Farben zum Auswerfen der Blöcke auf das Förderband
@@ -98,7 +98,7 @@ Es wurden 2 Motoren verwendet um die Leistung zu erhöhen.
 #### 4) Greifarm
 [Code des Greifarms](Bricks/Griparm/main.py)
 ##### Funktionsweise des Codes
-Um den Greifarm zu aktivieren muss ein blauer Block manuell vor den Sensor halten.
+Um den Greifarm zu aktivieren muss ein blauer Block manuell vor den Sensor gehalten werden.
 Greift den Block auf und transportiert ihm vom kleinen Laufband auf das große.  
 
 ##### Limitationen / Komplikationen
