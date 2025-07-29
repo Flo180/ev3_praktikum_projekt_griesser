@@ -56,8 +56,8 @@ Download von Extensions:
 ##### Funktionsweise des Codes
 Sortiert grüne von restlichen Farben in eine Box aus, die nicht betroffenen Farben werden weiterbefördert.
 
-"motor1 = Motor(Port.A)" -> Reserviert für Grüne um den Apparat zur Seite zu drehen
-"motor = Motor(Port.B)" -> Für alle Farben zum Auswerfen der Blöcke auf das Förderband
+- "motor1 = Motor(Port.A)" -> Reserviert für Grüne um den Apparat zur Seite zu drehen
+- "motor = Motor(Port.B)" -> Für alle Farben zum Auswerfen der Blöcke auf das Förderband
 
 "if color1 == Color.GREEN:" ist die erste Condition in der While(1) Schleife die den Motor1 betätigt (GREEN stammt aus der Colour Library)
 
@@ -118,6 +118,6 @@ Im Endeffekt zu wenig Zeit um das Problem zu lösen
 
 ## Author / Praktikant
 Name: Florian Griesser
-HTL Schüler im 1. Jahr, Schwerpunkt auf IT
-Praktikum an CPS absolviert: 07.07 - 31.07.2025, 4 Wochen
-Email: flo809744@gmail.com
+- HTL Schüler im 1. Jahr, Schwerpunkt auf IT
+- Praktikum an CPS absolviert: 07.07 - 31.07.2025, 4 Wochen
+- Email: flo809744@gmail.com
