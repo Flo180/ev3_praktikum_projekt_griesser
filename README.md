@@ -33,9 +33,12 @@ Verwendete Teile:
   7) USB Hub mit Stromversorgung
   8) 4x EV3
 Verbaute Komponenten: 8x Motoren, 4x Farbsensoren mit Infrarot
+
 ![side_view](https://github.com/user-attachments/assets/43bedd7e-1f8f-4f06-b61c-9742230ca800)
+Seitenansicht des Setups
 
-
+![top_view](https://github.com/user-attachments/assets/508d663d-48f5-48f3-a702-9b5bec7882bd)
+Ansicht des Setups von oben
 
 ### Aufsetzen der Entwicklungsumgebung
 
@@ -44,3 +47,6 @@ Download von Extensions:
   1) LEGO® MINDSTORMS® EV3 MicroPython (Version: 2.0.0)
   2) Remote - SSH (Version 0.120.0)
   3) ev3dev-browser (Version: 1.2.1, Testzwecke)
+
+### Erstellen des Codes
+  #### Sortiermaschine
