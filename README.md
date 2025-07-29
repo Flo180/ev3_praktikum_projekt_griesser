@@ -51,4 +51,4 @@ Download von Extensions:
 
 ### Erstellen des Codes
 #### 1) Sortiermaschine
-[Code: ](Bricks/Sorter/main.py)
+[Code zur Sortiermaschine](Bricks/Sorter/main.py)
