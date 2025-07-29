@@ -8,7 +8,7 @@ Im Ramen meines Praktikums am Lehrstuhl für Cyber-Physical-Systems habe ich ein
 
 - Bau einer Sortiermaschiene, die grüne Teile aussortiert und Programmierung dieser
 - Erweiterung des Förderbands mit einer Maschiene die die blauen Teile aussortiert
-- Programierung von Lift, Sortiermaschiene, Greifarm und Laufbändern
+- Programierung von Lift, Sortiermaschiene, Greifarm und Laufbändern (in Python3)
 - Recherche zum gleichzeitigem ansteuern aller EV3 Bricks 
 
 ### Herausforderung 
@@ -49,4 +49,5 @@ Download von Extensions:
   3) ev3dev-browser (Version: 1.2.1, Testzwecke)
 
 ### Erstellen des Codes
-  #### Sortiermaschine
+#### 1) Sortiermaschine
+Code: /Bricks/Sorter/main.py
