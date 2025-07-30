@@ -116,6 +116,9 @@ Im Endeffekt zu wenig Zeit um das Problem zu lösen
 .sh Datei zur Ansteuerung der Bricks:
 [Bash File](Bricks/starte_bricks.sh)
 
+### Nächste Schritte
+1) Die Sensoren so anbringen, dass alles vollautomatiesiert funktioniert und man nichts mehr manuell machen muss
+2) Weitere Ideen finden um das Pojekt zu verbessern
 ## Author / Praktikant
 Name: Florian Griesser
 - HTL Schüler im 1. Jahr, Schwerpunkt auf IT
